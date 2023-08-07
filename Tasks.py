@@ -25,6 +25,16 @@ class Tasks:
 
 
 
+
+
+
+
+
+
+
+
+
+
     # Задание 2
     # @staticmethod
     # def find_average(numbers):
