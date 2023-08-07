@@ -72,7 +72,11 @@ def test_person_bank_interaction():
     assert person.balance == 500
     assert bank.balance == 500
 
-
+def test_person_bank_valueerror():
+    with pytest.raises(ValueError):
+        person = Tasks.Person(0)
+        bank = Tasks.Bank()
+        person.transfer_money(500, bank)
 
 
 
@@ -94,12 +98,6 @@ def test_person_bank_interaction():
 
 
 # Задание 4
-def test_person_bank_valueerror():
-    with pytest.raises(ValueError):
-        person = Tasks.Person(0)
-        bank = Tasks.Bank()
-        person.transfer_money(500, bank)
-
 def test_transfer_with_mock():
     person = Tasks.Person(1000)
     bank_mock = Mock()  # Создаём мок-объект для банка

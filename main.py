@@ -6,7 +6,7 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-     # Примеры использования функций:
+    # Примеры использования функций:
     #1
     # avg = Tasks.find_average([1, 2, 3, 4, 5])
     # print(avg)
