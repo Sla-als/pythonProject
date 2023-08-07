@@ -4,9 +4,8 @@ class ListComparator:
     # pip install pylint
     # pylint list_comparator.py > pylint_report.txt
 
-    # pytest test_list_comparator.py
-    # coverage run - m
-    # pytest test_list_comparator.py
+    # pip install coverage
+    # coverage run -m pytest test_list_comparator.py
     # coverage  report - m
 
     def find_average(self, nums):
